@@ -7,4 +7,4 @@ docker build -t ide-in-container:latest .
 docker run --rm -it -p 8080:8080 -v /home:/home ide-in-container:latest
 
 # RUN THIS ONE OTHERWISE
-docker run --rm -it -p 8080:8080 -v /home:/home ide-in-container:latest
+docker run --rm -it -p 8080:8080 ide-in-container:latest
